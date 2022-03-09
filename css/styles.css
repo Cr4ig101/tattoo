@@ -5,6 +5,7 @@
 
 .navbar-selections {
   padding-left: 3rem;
+  font-size: 1.5rem;
 }
 
 .intro-pic img {
@@ -16,7 +17,6 @@
 .intro-text {
  padding: 10% 10% 0;
  text-align: left;
- height: 50%;
 }
 
 p {
@@ -25,6 +25,24 @@ p {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-h1 {
+.intro-text h1 {
   font-family: 'Headland One', serif;
+  font-size: 3rem;
+}
+
+@media screen and (max-width:999px) {
+  p {
+    font-size: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  .intro-text h1 {
+    font-family: 'Headland One', serif;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .navbar-selections {
+    font-size: 2rem;
+  }
 }
