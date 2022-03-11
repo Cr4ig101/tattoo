@@ -24,6 +24,17 @@
   height: 40px;
 }
 
+<<<<<<< HEAD
+=======
+.col-lg-6 {
+  padding-right: 0 !important;
+}
+
+.col-sm-12 {
+  padding-right: 0 !important;
+}
+
+>>>>>>> a920ed2e81d1a963c1b2a60568872c9941319412
 .intro .row {
   margin-right: 0;
 }
