@@ -24,6 +24,10 @@
   height: 40px;
 }
 
+.intro .row {
+  margin-right: 0;
+}
+
 .intro-pic img {
   opacity: 0.8;
   width: 100%;
@@ -67,10 +71,11 @@ p {
 }
 
 @media screen and (max-width:999px) {
-  p {
+  .intro-text p {
     font-size: 2.5rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
     padding: 0;
   }
   .intro-text h1 {
