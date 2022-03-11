@@ -14,10 +14,6 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
-.navbar-items {
-  right: 20px;
-}
-
 .navbar-selections {
   font-size: 1.5rem;
   text-align: center;
@@ -45,13 +41,6 @@
   left: 35%;
 }
 
-.contact-navbar p {
-  padding: 0;
-  font-size: 1.2rem;
-  margin: 0;
-  font-family: 'Oswald', sans-serif;
-}
-
 p {
   padding-top: 2rem;
   font-size: 2vw;
@@ -61,6 +50,20 @@ p {
 .intro-text h1 {
   font-family: 'Headland One', serif;
   font-size: 3rem;
+  height: 100%;
+}
+
+.columns {
+  display: block;
+  line-height: 0;
+  columns: 3;
+  column-gap: 5px;
+}
+
+.columns img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width:999px) {
@@ -81,5 +84,8 @@ p {
   }
   .navbar-selections {
     font-size: 2.5rem;
+  }
+  .columns {
+    columns: 2;
   }
 }
